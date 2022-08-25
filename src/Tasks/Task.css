@@ -1,0 +1,103 @@
+* {
+ 
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  /* background-image: url(../infinity.png); */
+}
+
+
+.container {
+/* Desktop - 1 */
+ position: relative;
+   height: 300px;
+   width: 520px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image:linear-gradient(108.31deg, rgba(50, 5, 15, 1) -0.1%, rgba(0, 0, 0,0.8)
+   , rgba(43, 20, 57,1) 95%), url(https://pngimg.com/uploads/infinity_symbol/infinity_symblo_PNG4.png);
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   background-size: 100% 100%;
+   margin: auto;
+}
+
+.row1 {
+width: 355px;
+height: 197px;
+font-family: 'Dr Sugiyama', serif;
+font-style: normal;
+font-weight: 100;
+font-size: 35px;
+line-height: 93px;
+flex: end;
+font-weight: bold;
+align-items: center;
+text-align: right;
+text-decoration-line: underline;
+color: #FFE380; 
+}
+
+.image{
+ position: absolute;
+ top: 25px;
+ left: 25px;
+width: 120px;
+height: 120px;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+/* background: url(../Tasks/user.jpeg); */
+border: 5px solid #FFE380;
+filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.row2 {
+position:absolute;
+width: 490px;
+left: 20px;
+top: 170px;
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 200;
+font-size: 19px;
+line-height: 20px;
+align-items: center;
+
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(255, 227, 128, 0.5);
+}
+
+.row3{
+position: absolute;
+width: 150px;
+height: 20px;
+left: 330px;
+top: 250px;
+
+font-family: 'Arvo';
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+
+
