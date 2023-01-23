@@ -1,6 +1,6 @@
-import React, {useState} from "react"
+// import React, {useState} from "react"
 import "./style.css"
-import Menu from "./menuApi"
+// import Menu from "./menuApi"
 const MenuCard = ({ menuData }) => {
   return(
     <>
